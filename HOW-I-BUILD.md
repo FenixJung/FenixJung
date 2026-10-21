@@ -14,13 +14,24 @@ This page shows the process, not the products. The source code stays private.
 4. **Test every build.** Automated checks wherever possible (plugin validation on every build, accessibility scans across every page), and my own review for the rest.
 5. **Turn every mistake into a rule.** Each issue gets a note: what was wrong, why it was missed, and what to do next time. The notes become a checklist for the next round.
 
+## Building an app, step by step
+
+For an app, the loop above runs in a fixed order, tracked in Jira:
+
+1. **Plan the app:** find the problem → ideate → research → work out how the whole app works → build the logic → build the functions framework.
+2. **Design:** ideate → research → lo-fi → hi-fi.
+3. **Build:** the functionality.
+4. **Finish:** only when every test passes.
+
+Testing runs regularly through every step. [ORBIT](case-studies/orbit.md) shows this process in progress.
+
 ## Case studies
 
 | Project | What it shows |
 |---|---|
 | [ZAP + EVOLVE · PVLSE LAB](case-studies/zap-evolve.md) | A working VST plugin built by directing Claude Code: research docs first, a staged spec, test tools, automated macOS and Windows builds |
 | [Complete Elixir store](case-studies/complete-elixir-store.md) | A live Shopify store built and refined by directing AI: a brand color audit, measured layouts, accessibility scans, a 32-entry mistake log |
-| [ORBIT (in design)](case-studies/orbit.md) | A macOS audio app taken from v0.2 to v0.4 through three usability-testing rounds, before any code |
+| [ORBIT](case-studies/orbit.md) | A macOS audio app built step by step in Jira: app concept done, logic and functions nearly done, lo-fi wireframes done, usability testing nearly finished |
 
 ## About me
 

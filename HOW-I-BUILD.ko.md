@@ -14,13 +14,24 @@
 4. **모든 빌드를 테스트합니다.** 할 수 있는 곳은 자동으로 검사하고(빌드마다 plugin validation, 전체 페이지 접근성 검사), 나머지는 제가 직접 검토합니다.
 5. **모든 실수를 규칙으로 만듭니다.** 문제마다 무엇이 틀렸는지, 왜 놓쳤는지, 다음에는 어떻게 할지를 적습니다. 이 기록이 다음 라운드의 체크리스트가 됩니다.
 
+## 앱은 이 순서로 만듭니다
+
+앱을 만들 때는 위 방식을 정해진 순서대로 진행하고, Jira로 관리합니다.
+
+1. **앱 기획:** 문제 찾기 → 아이디에이션 → 리서치 → 앱 전체가 어떻게 작동할지 구상 → 로직 만들기 → 기능 프레임워크 구축.
+2. **디자인:** 아이디에이션 → 리서치 → lo-fi → hi-fi.
+3. **개발:** 기능 구현.
+4. **완성:** 모든 테스트를 통과해야 끝납니다.
+
+테스트는 모든 단계에서 정기적으로 합니다. 진행 중인 예시는 [ORBIT](case-studies/orbit.ko.md)에 있습니다.
+
 ## Case studies
 
 | 프로젝트 | 보여주는 것 |
 |---|---|
 | [ZAP + EVOLVE · PVLSE LAB](case-studies/zap-evolve.ko.md) | Claude Code에게 지시해서 만든, 실제로 작동하는 VST plugin. 리서치 문서 먼저, 단계별 spec, 테스트 도구, macOS와 Windows 자동 빌드 |
 | [Complete Elixir 스토어](case-studies/complete-elixir-store.ko.md) | AI에게 지시해서 만들고 다듬은 실제 운영 중인 Shopify 스토어. 브랜드 색 점검, 숫자로 맞춘 레이아웃, 접근성 검사, 32개 항목의 실수 기록 |
-| [ORBIT (디자인 단계)](case-studies/orbit.ko.md) | 코드 없이 usability test 세 번으로 v0.2에서 v0.4까지 발전시킨 macOS 오디오 앱 |
+| [ORBIT](case-studies/orbit.ko.md) | Jira로 한 단계씩 만드는 macOS 오디오 앱. 앱 구상 완료, 로직과 기능 거의 완료, lo-fi 와이어프레임 완료, usability test 거의 완료 |
 
 ## 소개
 
