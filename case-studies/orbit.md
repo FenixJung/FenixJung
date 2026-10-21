@@ -31,12 +31,12 @@ Like every project, ORBIT follows my step flow ([see How I Build](../HOW-I-BUILD
 
 | Stage | Steps | ORBIT now |
 |---|---|---|
-| 1. Discover | Find the problem → research | Done: the problem from my own headset, device research, the audio-capture approach and the tech stack. |
-| 2. Define | Ideate → app concept → logic → functions | App concept done (app structure v0.4, 23 recorded decisions). Logic and functions nearly done. |
-| 3. Design | Research → ideate → lo-fi → usability test → hi-fi | Lo-fi wireframes done. Usability testing nearly finished. Hi-fi next. |
-| 4. Build | Functionality | Next |
+| 1. Discovery | Problem definition → research | Done: the problem from my own headset, device research, the audio-capture approach and the tech stack. |
+| 2. Definition | Ideation → product concept → user flows and logic → functional requirements | App concept done (app structure v0.4, 23 recorded decisions). Logic and functions nearly done. |
+| 3. Design | UX research → ideation → lo-fi → usability testing → hi-fi | Lo-fi wireframes done. Usability testing nearly finished. Hi-fi next. |
+| 4. Build | Incremental delivery | Next |
 | 5. Release | Acceptance test on both headphones, then daily use | Last |
-| Throughout | Regular testing | Usability rounds with fixed questions and pass criteria moved the design from v0.2 to v0.4. |
+| Throughout | Continuous QA | Usability rounds with fixed questions and pass criteria moved the design from v0.2 to v0.4. |
 
 ![ORBIT menu-bar panel, drawn from the lo-fi wireframes](images/orbit-panel-lofi.svg)
 

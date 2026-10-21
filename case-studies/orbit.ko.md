@@ -31,12 +31,12 @@ ORBIT는 macOS에 없는 EQ를 모든 앱에 더해주는 macOS 메뉴 막대 �
 
 | 단계 | 하는 일 | ORBIT 현재 |
 |---|---|---|
-| 1. 발견 | 문제 찾기 → 리서치 | 완료: 제 헤드셋에서 시작한 문제, 기기 리서치, 오디오 캡처 방식과 기술 스택. |
-| 2. 정의 | 아이디에이션 → 앱 구상 → 로직 → 기능 | 앱 구상 완료(앱 구조 v0.4, 기록된 결정 23개). 로직과 기능은 거의 완료. |
-| 3. 디자인 | 리서치 → 아이디에이션 → lo-fi → usability test → hi-fi | Lo-fi 와이어프레임 완료. Usability test 거의 완료. 다음은 hi-fi. |
-| 4. 개발 | 기능 구현 | 다음 |
-| 5. 출시 | 두 헤드폰에서 인수 테스트, 그다음 매일 사용 | 마지막 |
-| 전 과정 | 정기적인 테스트 | 정해진 질문과 통과 기준으로 진행한 usability test로 디자인이 v0.2에서 v0.4로 바뀌었습니다. |
+| 1. Discovery | 문제 정의 → 리서치 | 완료: 제 헤드셋에서 시작한 문제, 기기 리서치, 오디오 캡처 방식과 기술 스택. |
+| 2. Definition | 아이디에이션 → product concept → user flow와 logic → functional requirements | 앱 구상 완료(앱 구조 v0.4, 기록된 결정 23개). 로직과 기능은 거의 완료. |
+| 3. Design | UX research → 아이디에이션 → lo-fi → usability testing → hi-fi | Lo-fi 와이어프레임 완료. Usability test 거의 완료. 다음은 hi-fi. |
+| 4. Build | Incremental delivery | 다음 |
+| 5. Release | 두 헤드폰에서 인수 테스트, 그다음 매일 사용 | 마지막 |
+| 전 과정 | 지속적인 QA | 정해진 질문과 통과 기준으로 진행한 usability test로 디자인이 v0.2에서 v0.4로 바뀌었습니다. |
 
 ![lo-fi 와이어프레임을 바탕으로 그린 ORBIT 메뉴 막대 패널](images/orbit-panel-lofi.svg)
 
