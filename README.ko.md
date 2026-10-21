@@ -2,7 +2,7 @@
 
 [English](README.md) · **한국어**
 
-저는 AI에게 지시해서 제품을 만듭니다. 제가 만드는 모든 앱과 웹사이트는 같은 순서를 따르고 Jira로 관리합니다. 기획(문제 찾기 → 아이디에이션 → 리서치 → 앱 구상 → 로직 → 기능), 디자인(아이디에이션 → 리서치 → lo-fi → hi-fi), 기능 구현, 그리고 모든 테스트를 통과해야 완성. 테스트는 전 과정에서 계속합니다.
+저는 AI에게 지시해서 제품을 만듭니다. 제가 만드는 모든 앱과 웹사이트는 같은 순서를 따르고 Jira로 관리합니다. 발견(문제 찾기 → 리서치), 정의(아이디에이션 → 앱 구상 → 로직 → 기능), 디자인(리서치 → 아이디에이션 → lo-fi → usability test → hi-fi), 개발, 그리고 인수 테스트를 통과해야 출시. 테스트는 전 과정에서 계속합니다.
 
 Douglas College 경영학(Business Administration) 재학 중입니다 (Vancouver, BC). 아래 프로젝트는 프로젝트 관리, UX 디자인, 마케팅, IT / 소프트웨어 관점으로 보여줍니다.
 
@@ -30,7 +30,6 @@ Douglas College 경영학(Business Administration) 재학 중입니다 (Vancouve
 
 ### ORBIT · macOS 오디오 앱
 macOS에는 시스템 전체 기본 EQ가 없습니다. ORBIT는 Spotify, Apple Music 같은 모든 앱에 스테레오든 Dolby Atmos든 EQ를 적용하고, Atmos 이어폰이나 헤드셋이 있으면 Apple Music의 Atmos 채널을 자동으로 들려줍니다.
-- Jira 프로젝트로 한 단계씩 만듭니다: 앱 기획(문제 → 아이디에이션 → 리서치 → 앱 구상 → 로직 → 기능), 디자인(아이디에이션 → 리서치 → lo-fi → hi-fi), 기능 구현. 테스트는 전 과정에서 계속합니다.
 - 지금: 앱 구상 완료, 로직과 기능 거의 완료, lo-fi 와이어프레임 완료, usability test(정해진 질문과 통과 기준, v0.2 → v0.4) 거의 완료.
 - 예정 스택: Swift 6 + SwiftUI, C++20 실시간 오디오 코어, Core Audio process taps.
 

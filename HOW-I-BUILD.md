@@ -12,10 +12,11 @@ Every project I build follows the same step flow, and every project is managed i
 
 ![How I build every app and website](case-studies/images/process.svg)
 
-1. **Plan the app:** find the problem → ideate → research → work out how the whole app works → build the logic → build the functions framework.
-2. **Design:** once the plan is done: ideate → research → lo-fi → hi-fi.
-3. **Build:** the functionality.
-4. **Finish:** only when every test passes.
+1. **Discover:** find the problem → research it (users, competitors, technology).
+2. **Define:** ideate → work out how the whole app works (the app concept) → build the logic (user flows and rules) → build the functions framework (features and architecture).
+3. **Design:** once the definition is done: research → ideate → lo-fi → usability test → hi-fi.
+4. **Build:** the functionality, one step at a time.
+5. **Release:** only when the acceptance tests pass, then keep improving from feedback.
 
 **Testing runs regularly through every step,** not just at the end.
 

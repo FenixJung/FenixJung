@@ -2,7 +2,7 @@
 
 **English** · [한국어](README.ko.md)
 
-I build products by directing AI. Every app and website I make follows the same step flow, managed in Jira: plan (find the problem → ideate → research → app concept → logic → functions), design (ideate → research → lo-fi → hi-fi), build the functionality, and finish only when every test passes, with testing throughout.
+I build products by directing AI. Every app and website I make follows the same step flow, managed in Jira: discover (find the problem → research), define (ideate → app concept → logic → functions), design (research → ideate → lo-fi → usability test → hi-fi), build, and release only when the acceptance tests pass, with testing throughout.
 
 Business Administration student at Douglas College (Vancouver, BC). Each project below is shown through project management, UX design, marketing and IT / software.
 
@@ -30,7 +30,6 @@ The first product of my audio plugin startup: a three-stage distortion VST plugi
 
 ### ORBIT · macOS audio app
 macOS has no built-in system-wide EQ. ORBIT adds one for every app, such as Spotify or Apple Music, in stereo or Dolby Atmos, and plays Apple Music's Atmos channels through Atmos earphones or headsets automatically.
-- Built step by step in a Jira project: plan the app (problem → ideate → research → app concept → logic → functions), then design (ideate → research → lo-fi → hi-fi), then functionality, with testing throughout.
 - Now: app concept done, logic and functions nearly done, lo-fi wireframes done; usability testing (fixed questions and pass criteria, v0.2 → v0.4) nearly finished.
 - Planned stack: Swift 6 + SwiftUI, a C++20 real-time audio core, and Core Audio process taps.
 
