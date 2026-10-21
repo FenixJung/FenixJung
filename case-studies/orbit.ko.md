@@ -4,15 +4,16 @@
 
 ## 요약
 
-ORBIT는 Mac의 모든 앱에 같은 EQ와 공간 음향을 적용하는 macOS 메뉴 막대 앱입니다. 어떤 헤드폰에서도 작동합니다.
+ORBIT는 macOS에 없는 EQ를 모든 앱에 더해주는 macOS 메뉴 막대 앱입니다.
 
-**문제:** Mac에서 공간 음향과 EQ는 대부분 Apple 앱과 Apple 헤드폰에서만 됩니다. 제 Xbox 헤드셋은 둘 다 안 되고, 앱이나 헤드폰을 바꿀 때마다 소리가 달라집니다.
+**기본 앱:**
+- **어떤 소스든 EQ.** macOS에는 시스템 전체에 쓰는 기본 EQ가 없습니다. ORBIT는 Spotify나 Apple Music 같은 앱의 소리를 스테레오든 Dolby Atmos든 받아서 EQ를 적용하고, 원하는 대로 커스터마이즈해서 들을 수 있게 합니다.
+- **Atmos는 자동으로.** Atmos 이어폰이나 헤드셋이 있으면, ORBIT가 Apple Music에서 Dolby Atmos가 들어오는지 스테레오가 들어오는지 알아서 판단하고, Atmos 채널 소리를 이어폰이나 헤드셋으로 들려줍니다.
 
-**하는 일:**
-- **모든 앱에 하나의 EQ:** 5밴드(125 Hz, 250 Hz, 1 kHz, 4 kHz, 8 kHz)와 Bass Boost, 프리셋 Flat, Bass, Warm, Bright, Vocal.
-- **가상 7.1 공간 음향:** macOS가 지원하지 않는 곳에 적용. Game, Movie, Music, Voice 모드.
+**디자인에 함께 들어간 것:**
+- **EQ 세부:** 5밴드(125 Hz, 250 Hz, 1 kHz, 4 kHz, 8 kHz)와 Bass Boost, 프리셋 Flat, Bass, Warm, Bright, Vocal.
+- **가상 7.1 공간 음향:** 공간 음향이 없는 헤드폰(예: Xbox 헤드셋)용. Game, Movie, Music, Voice 모드.
 - **Device Tune:** 헤드폰마다 먼저 보정해서, 같은 프리셋이 어떤 기기에서도 같은 소리를 냅니다.
-- **소스를 존중:** Apple Music이 Dolby Atmos를 재생하면 ORBIT가 그 사실을 보여주고 건드리지 않습니다.
 
 **신호 흐름:** Device Tune → EQ → Spatial → Auto level + Limiter(≤ 0 dBFS). 볼륨은 항상 Mac 볼륨이 기준이고, ORBIT는 소스보다 소리를 키우지 않습니다.
 
@@ -36,19 +37,11 @@ ORBIT용 Jira 프로젝트를 만들고, 표준 소프트웨어 개발 과정을
 | 4. 완성 | 모든 테스트 통과 | 마지막 |
 | 전 과정 | 정기적인 테스트 | 정해진 질문과 통과 기준으로 진행한 usability test로 디자인이 v0.2에서 v0.4로 바뀌었고, 테스트는 거의 끝났습니다. |
 
-![ORBIT 메뉴 막대 패널, lo-fi 와이어프레임 v0.4](images/orbit-panel-lofi.svg)
-
-### 디자인 결정: 공간 음향은 누가 처리하나
-
-ORBIT는 아래 순서로 확인하고, 빈 곳만 채웁니다.
-
-1. **소스:** Apple Music이 Dolby Atmos를 보내면 Apple이 렌더링하고, ORBIT는 그 앱에서 빠집니다.
-2. **macOS:** AirPods Pro 2는 macOS Spatial Audio를 쓰고, ORBIT는 Device Tune과 EQ만 더합니다.
-3. **ORBIT:** Xbox Wireless Headset은 ORBIT EQ와 ORBIT Spatial(가상 7.1)을 씁니다.
+![lo-fi 와이어프레임을 바탕으로 그린 ORBIT 메뉴 막대 패널](images/orbit-panel-lofi.svg)
 
 ### 적어 둔 미해결 문제
 
-v0.4 디자인은 Apple Music이 무엇을 보내는지 알아야 하는데, 이를 알려주는 공개 API가 없습니다. 후보 신호는 Music 앱의 출력 채널 수와 포맷, 시스템 렌더러 경로, 재생 중 정보(now-playing metadata)입니다. 어느 것도 안 되면 앱별 규칙으로 대신합니다.
+Atmos 자동 전환은 Apple Music이 무엇을 보내는지 알아야 하는데, 이를 알려주는 공개 API가 없습니다. 후보 신호는 Music 앱의 출력 채널 수와 포맷, 시스템 렌더러 경로, 재생 중 정보(now-playing metadata)입니다. 어느 것도 안 되면 앱별 규칙으로 대신합니다.
 
 ## 평가 방법
 

@@ -4,15 +4,16 @@
 
 ## Summary
 
-ORBIT is a macOS menu-bar app that gives every app on the Mac the same EQ and spatial sound, on any headphones.
+ORBIT is a macOS menu-bar app that adds the EQ macOS doesn't have, for every app.
 
-**The problem:** on a Mac, spatial audio and EQ mostly stop at Apple apps and Apple headphones. My Xbox headset gets neither, and the sound changes every time I switch apps or headphones.
+**The core app:**
+- **EQ for any source.** macOS has no built-in system-wide EQ. ORBIT takes the sound from any app, such as Spotify or Apple Music, whether it's stereo or Dolby Atmos, applies EQ, and lets you customize it to sound the way you want.
+- **Atmos, automatically.** With Atmos earphones or a headset, ORBIT detects whether Apple Music is sending Dolby Atmos or stereo, and plays the Atmos channels through your earphones or headset on its own.
 
-**What it does:**
-- **One EQ for every app:** five bands (125 Hz, 250 Hz, 1 kHz, 4 kHz, 8 kHz) plus Bass Boost, with Flat, Bass, Warm, Bright and Vocal presets.
-- **Virtual 7.1 spatial sound** where macOS has none, with Game, Movie, Music and Voice modes.
+**Also in the design:**
+- **EQ details:** five bands (125 Hz, 250 Hz, 1 kHz, 4 kHz, 8 kHz) plus Bass Boost, with Flat, Bass, Warm, Bright and Vocal presets.
+- **Virtual 7.1 spatial sound** for headphones that have none (for example an Xbox headset), with Game, Movie, Music and Voice modes.
 - **Device Tune** corrects each headphone first, so a preset sounds the same on every device.
-- **Respects the source:** when Apple Music plays Dolby Atmos, ORBIT shows it and leaves it alone.
 
 **Signal chain:** Device Tune → EQ → Spatial → Auto level + Limiter (≤ 0 dBFS). The Mac volume stays the master, and ORBIT never makes anything louder than the source.
 
@@ -36,19 +37,11 @@ I created a Jira project for ORBIT and follow a standard software development pr
 | 4. Finish | Every test passes | Last |
 | Throughout | Regular testing | Usability rounds with fixed questions and pass criteria moved the design from v0.2 to v0.4; testing is nearly finished. |
 
-![ORBIT menu-bar panel, lo-fi wireframe v0.4](images/orbit-panel-lofi.svg)
-
-### A design decision: who handles the spatial sound
-
-ORBIT checks in this order and only fills the gap:
-
-1. **Source:** Apple Music sends Dolby Atmos → Apple renders it, and ORBIT steps aside for that app.
-2. **macOS:** AirPods Pro 2 → macOS Spatial Audio; ORBIT adds Device Tune and EQ.
-3. **ORBIT:** Xbox Wireless Headset → ORBIT EQ and ORBIT Spatial (virtual 7.1).
+![ORBIT menu-bar panel, drawn from the lo-fi wireframes](images/orbit-panel-lofi.svg)
 
 ### An open problem, written down
 
-The v0.4 design depends on knowing what Apple Music is sending, and there is no public API for it. Candidate signals: the Music app's output channel count and format, the system renderer path, and now-playing metadata. If none of them works, the fallback is a per-app rule.
+The automatic Atmos switch depends on knowing what Apple Music is sending, and there is no public API for it. Candidate signals: the Music app's output channel count and format, the system renderer path, and now-playing metadata. If none of them works, the fallback is a per-app rule.
 
 ## How it will be evaluated
 
