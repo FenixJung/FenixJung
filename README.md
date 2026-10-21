@@ -2,9 +2,9 @@
 
 **English** · [한국어](README.ko.md)
 
-I build products by directing AI. I write the spec, break it into small, testable steps, have Claude Code or other AI tools build each one, test every build, and document how it works.
+I build products by directing AI. Every app and website I make follows the same step flow, managed in Jira: plan (find the problem → ideate → research → app concept → logic → functions), design (ideate → research → lo-fi → hi-fi), build the functionality, and finish only when every test passes, with testing throughout.
 
-Business Administration student at Douglas College (Vancouver, BC), with 5+ years of project management and QA experience.
+Business Administration student at Douglas College (Vancouver, BC). Each project below is shown through project management, UX design, marketing and IT / software.
 
 [pvlselab.com](https://pvlselab.com) · [completeelixir.com](https://completeelixir.com) · [LinkedIn](https://www.linkedin.com/in/fenixjung)
 
@@ -36,6 +36,9 @@ macOS has no built-in system-wide EQ. ORBIT adds one for every app, such as Spot
 
 [Case study →](case-studies/orbit.md)
 
-## Background
+## Skills
 
-FIFA audio QA at Electronic Arts · project management at Complete Elixir · UX research at MicroPay
+- **Audio engineering:** sound design, mixing and mastering; audio QA.
+- **UX design:** user research, usability testing, wireframes and prototypes.
+- **Project management:** requirements, Agile, Jira, cross-functional coordination.
+- **Building with AI:** directing Claude Code and Claude to build, test and document products.

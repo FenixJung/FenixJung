@@ -2,39 +2,44 @@
 
 **English** · [한국어](HOW-I-BUILD.ko.md)
 
-I build products by directing AI. I don't write the code myself. I write the spec, break the work into small steps that can each be checked, have the AI (Claude Code and Claude) build one step at a time, and test every result against what I asked for. When something is wrong, I name it, have the AI fix it, and turn the mistake into a rule so it doesn't come back.
+I build products by directing AI. I don't write the code myself. I find the problem, plan how the product should work, design it, have the AI (Claude Code and Claude) build it one step at a time, and test every result against what I asked for.
 
 This page shows the process, not the products. The source code stays private.
 
-## The loop
+## My process for every app and website
 
-1. **Brief and research first.** Before anything is built, I write down what the product should do and feel like, and research the field: competitors, reference products, techniques.
-2. **Spec in small, testable steps.** Every step has a clear check: a sound to render, a screen to measure, a test to pass.
-3. **The AI builds one step at a time,** and I check each result.
-4. **Test every build.** Automated checks wherever possible (plugin validation on every build, accessibility scans across every page), and my own review for the rest.
-5. **Turn every mistake into a rule.** Each issue gets a note: what was wrong, why it was missed, and what to do next time. The notes become a checklist for the next round.
+Every project I build follows the same step flow, and every project is managed in Jira, one step at a time, in order.
 
-## Building an app, step by step
-
-For an app, the loop above runs in a fixed order, tracked in Jira:
+![How I build every app and website](case-studies/images/process.svg)
 
 1. **Plan the app:** find the problem → ideate → research → work out how the whole app works → build the logic → build the functions framework.
-2. **Design:** ideate → research → lo-fi → hi-fi.
+2. **Design:** once the plan is done: ideate → research → lo-fi → hi-fi.
 3. **Build:** the functionality.
 4. **Finish:** only when every test passes.
 
-Testing runs regularly through every step. [ORBIT](case-studies/orbit.md) shows this process in progress.
+**Testing runs regularly through every step,** not just at the end.
+
+## How I work inside each step
+
+- **Small, testable steps.** Every step has a clear check: a sound to render, a screen to measure, a test to pass.
+- **The AI builds one step at a time,** and I check each result.
+- **Automated checks wherever possible:** plugin validation on every build, accessibility scans across every page. My own review covers the rest.
+- **Every mistake becomes a rule.** Each issue gets a note: what was wrong, why it was missed, and what to do next time. The notes become a checklist for the next round.
 
 ## Case studies
+
+Each case study maps the project onto the steps above.
 
 | Project | What it shows |
 |---|---|
 | [ZAP + EVOLVE · PVLSE LAB](case-studies/zap-evolve.md) | A working VST plugin built by directing Claude Code: research docs first, a staged spec, test tools, automated macOS and Windows builds |
 | [Complete Elixir store](case-studies/complete-elixir-store.md) | A live Shopify store built and refined by directing AI: a brand color audit, measured layouts, accessibility scans, a 32-entry mistake log |
-| [ORBIT](case-studies/orbit.md) | A macOS audio app built step by step in Jira: app concept done, logic and functions nearly done, lo-fi wireframes done, usability testing nearly finished |
+| [ORBIT](case-studies/orbit.md) | A macOS audio app in progress: app concept done, logic and functions nearly done, lo-fi wireframes done, usability testing nearly finished |
 
 ## About me
 
-Fenix Jung · Business Administration student at Douglas College (Vancouver, BC) · 5+ years of project management and QA at Electronic Arts and Complete Elixir
+Fenix Jung · Business Administration student at Douglas College (Vancouver, BC)
+
+Audio engineering · UX design · Project management · Building with AI
 
 [pvlselab.com](https://pvlselab.com) · [completeelixir.com](https://completeelixir.com) · [Profile](README.md)

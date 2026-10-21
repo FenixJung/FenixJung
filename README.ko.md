@@ -2,9 +2,9 @@
 
 [English](README.md) · **한국어**
 
-저는 AI에게 지시해서 제품을 만듭니다. spec을 쓰고, 작고 테스트할 수 있는 단계로 나누고, Claude Code나 다른 AI 도구가 한 단계씩 만들게 한 뒤, 모든 빌드를 테스트하고 작동 방식을 문서로 남깁니다.
+저는 AI에게 지시해서 제품을 만듭니다. 제가 만드는 모든 앱과 웹사이트는 같은 순서를 따르고 Jira로 관리합니다. 기획(문제 찾기 → 아이디에이션 → 리서치 → 앱 구상 → 로직 → 기능), 디자인(아이디에이션 → 리서치 → lo-fi → hi-fi), 기능 구현, 그리고 모든 테스트를 통과해야 완성. 테스트는 전 과정에서 계속합니다.
 
-Douglas College 경영학(Business Administration) 재학 중이고 (Vancouver, BC), 프로젝트 관리와 QA 경력이 5년 넘게 있습니다.
+Douglas College 경영학(Business Administration) 재학 중입니다 (Vancouver, BC). 아래 프로젝트는 프로젝트 관리, UX 디자인, 마케팅, IT / 소프트웨어 관점으로 보여줍니다.
 
 [pvlselab.com](https://pvlselab.com) · [completeelixir.com](https://completeelixir.com) · [LinkedIn](https://www.linkedin.com/in/fenixjung)
 
@@ -36,6 +36,9 @@ macOS에는 시스템 전체 기본 EQ가 없습니다. ORBIT는 Spotify, Apple 
 
 [Case study →](case-studies/orbit.ko.md)
 
-## 경력
+## 스킬
 
-Electronic Arts FIFA 오디오 QA · Complete Elixir 프로젝트 관리 · MicroPay UX 리서치
+- **오디오 엔지니어링:** 사운드 디자인, 믹싱, 마스터링, 오디오 QA.
+- **UX 디자인:** 사용자 리서치, usability test, 와이어프레임과 프로토타입.
+- **프로젝트 관리:** 요구사항 정리, Agile, Jira, 여러 팀 간 조율.
+- **AI로 만들기:** Claude Code와 Claude에게 지시해서 제품을 만들고, 테스트하고, 문서화.
