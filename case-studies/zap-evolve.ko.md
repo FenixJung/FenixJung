@@ -14,12 +14,12 @@
 
 | 단계 | 이 프로젝트에서 |
 |---|---|
-| **기획:** 문제 찾기 → 아이디에이션 → 리서치 | 단계별로 의도한 톤과 참고 아티스트를 적은 founder brief. 잘 알려진 distortion 회로 12개, 디지털 distortion 기법(aliasing을 피하는 방법 포함), 참고 아티스트 6명의 장비와 톤 리서치. |
-| **기획:** 앱 구상 → 로직 → 기능 | 3단계(ZAP → EVOLVE → ASCEND), 노브 3개(LEVEL, ZAP, TONE), 3단 stage 스위치. 각 단계의 v0.1 설계와 측정 결과. spec과 단계별 prompt, 저장된 세션이 계속 작동하도록 parameter ID 고정. |
-| **디자인:** 아이디에이션 → 리서치 → lo-fi → hi-fi | 페달 스타일 UI: 노브는 드래그, stage는 클릭으로 바꾸고, 풋스위치는 bypass. UI 이미지 레이어는 PVLSE LAB 웹사이트 히어로 이미지에서 가져왔습니다. |
-| **개발:** 기능 구현 | Claude Code에게 지시해서 전부 만들었습니다(C++20, JUCE). macOS는 VST3, AU, Standalone, Windows는 VST3, Standalone. |
+| **발견** | 단계별로 의도한 톤과 참고 아티스트를 적은 founder brief. 잘 알려진 distortion 회로 12개, 디지털 distortion 기법(aliasing을 피하는 방법 포함), 참고 아티스트 6명의 장비와 톤 리서치. |
+| **정의** | 3단계(ZAP → EVOLVE → ASCEND), 노브 3개(LEVEL, ZAP, TONE), 3단 stage 스위치. 각 단계의 v0.1 설계와 측정 결과. spec과 단계별 prompt, 저장된 세션이 계속 작동하도록 parameter ID 고정. |
+| **디자인** | 페달 스타일 UI: 노브는 드래그, stage는 클릭으로 바꾸고, 풋스위치는 bypass. UI 이미지 레이어는 PVLSE LAB 웹사이트 히어로 이미지에서 가져왔습니다. |
+| **개발** | Claude Code에게 지시해서 전부 만들었습니다(C++20, JUCE). macOS는 VST3, AU, Standalone, Windows는 VST3, Standalone. |
 | **테스트,** 전 과정 | DAW 없이 소리 변화를 듣는 ZapRender, UI를 이미지로 검토하는 ZapSnapshot, 빌드마다 macOS와 Windows에서 pluginval(strictness 10), AU 버전은 auval. |
-| **완성:** 모든 테스트 통과 | 아직입니다. plugin은 작동하고 소리가 나지만, 최종 사운드 디자인과 튜닝이 진행 중입니다. |
+| **출시** | 아직입니다. plugin은 작동하고 소리가 나지만, 최종 사운드 디자인과 튜닝이 진행 중입니다. |
 
 ## 네 가지 관점
 

@@ -14,12 +14,12 @@ Like every project, ZAP + EVOLVE followed my step flow ([see How I Build](../HOW
 
 | Step | In this project |
 |---|---|
-| **Plan:** find the problem → ideate → research | A founder brief on the intended tone of each stage, with reference artists. Research on 12 well-known distortion circuits, digital distortion techniques (including how to avoid aliasing), and the gear and tone of six reference artists. |
-| **Plan:** app concept → logic → functions | Three stages (ZAP → EVOLVE → ASCEND), three knobs (LEVEL, ZAP, TONE) and a three-position stage switch. The v0.1 design of each stage, with measurement results. Specifications and step-by-step prompts, with parameter IDs fixed so saved sessions keep working. |
-| **Design:** ideate → research → lo-fi → hi-fi | A pedal-style UI: drag the knobs, click to change the stage, footswitch for bypass. The UI image layers come from the PVLSE LAB website hero image. |
-| **Build:** functionality | Built entirely by directing Claude Code (C++20, JUCE): VST3, AU and Standalone on macOS; VST3 and Standalone on Windows. |
+| **Discover** | A founder brief on the intended tone of each stage, with reference artists. Research on 12 well-known distortion circuits, digital distortion techniques (including how to avoid aliasing), and the gear and tone of six reference artists. |
+| **Define** | Three stages (ZAP → EVOLVE → ASCEND), three knobs (LEVEL, ZAP, TONE) and a three-position stage switch. The v0.1 design of each stage, with measurement results. Specifications and step-by-step prompts, with parameter IDs fixed so saved sessions keep working. |
+| **Design** | A pedal-style UI: drag the knobs, click to change the stage, footswitch for bypass. The UI image layers come from the PVLSE LAB website hero image. |
+| **Build** | Built entirely by directing Claude Code (C++20, JUCE): VST3, AU and Standalone on macOS; VST3 and Standalone on Windows. |
 | **Testing,** throughout | ZapRender to hear any change without a DAW, ZapSnapshot to review the UI as an image, pluginval at strictness 10 on macOS and Windows on every build, and auval for the AU version. |
-| **Finish:** all tests pass | Not yet. The plugin works and produces sound; final sound design and tuning are still in progress. |
+| **Release** | Not yet. The plugin works and produces sound; final sound design and tuning are still in progress. |
 
 ## Through four lenses
 

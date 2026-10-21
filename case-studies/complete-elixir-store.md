@@ -14,12 +14,12 @@ Like every project, the store followed my step flow ([see How I Build](../HOW-I-
 
 | Step | In this project |
 |---|---|
-| **Plan:** find the problem → ideate → research | Competitive analysis, design research, and finding the problems with the old store. |
-| **Plan:** app concept → logic → functions | The store's structure and features: best sellers with Add to cart on every card, reviews, shop-by-skin-concern tiles, Skin Read, the Product Navigator, the SHOP menu, and a footer that keeps the links to the journal, VIP and search. |
-| **Design:** ideate → research → lo-fi → hi-fi | A mobile-first design, with a design system taken from the brand files: ink, gold, ivory and bronze, one button style, and measured spacing. |
-| **Build:** functionality | Built on Shopify by directing AI, including the product videos, photos and captions. The redesign ran in five rounds, each on a copy of the live theme (CE v2 to CE v6). |
+| **Discover** | Competitive analysis, design research, and finding the problems with the old store. |
+| **Define** | The store's structure and features: best sellers with Add to cart on every card, reviews, shop-by-skin-concern tiles, Skin Read, the Product Navigator, the SHOP menu, and a footer that keeps the links to the journal, VIP and search. |
+| **Design** | A mobile-first design, with a design system taken from the brand files: ink, gold, ivory and bronze, one button style, and measured spacing. |
+| **Build** | Built on Shopify by directing AI, including the product videos, photos and captions. The redesign ran in five rounds, each on a copy of the live theme (CE v2 to CE v6). |
 | **Testing,** throughout | Every function tested before launch. Then contrast scans (axe-core, WCAG 2.1 AA), an automatic tapped-button check on 39 pages, link checks, and layout checks at 1440px, 390px and 375px. |
-| **Finish:** all tests pass | Live at [completeelixir.com](https://completeelixir.com). Round 5's four new checks on 50 desktop and 12 mobile pages all ended at 0. |
+| **Release,** then improve | Live at [completeelixir.com](https://completeelixir.com), then improved in five rounds on the live store. Round 5's four new checks on 50 desktop and 12 mobile pages all ended at 0. |
 
 ## Through four lenses
 

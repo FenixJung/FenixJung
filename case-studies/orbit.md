@@ -25,17 +25,18 @@ ORBIT is a macOS menu-bar app that adds the EQ macOS doesn't have, for every app
 
 ## How I build it: step by step, tracked in Jira
 
-I created a Jira project for ORBIT and follow a standard software development process, one step at a time, in order. Testing runs regularly through every step, and the app is finished only when everything passes.
+Like every project, ORBIT follows my step flow ([see How I Build](../HOW-I-BUILD.md)) in a Jira project, one step at a time, in order. Testing runs regularly through every step, and the app is released only when the acceptance tests pass.
 
-![How I build an app, and where ORBIT is now](images/orbit-process.svg)
+![Where ORBIT is now](images/orbit-process.svg)
 
 | Stage | Steps | ORBIT now |
 |---|---|---|
-| 1. Plan the app | Find the problem → ideate → research → work out how the whole app works → build the logic → build the functions framework | Problem, ideation, research and app concept done (app structure v0.4, 23 recorded decisions). Logic and functions nearly done. |
-| 2. Design | Ideate → research → lo-fi → hi-fi | Lo-fi wireframes done. Hi-fi next. |
-| 3. Build | Functionality | Next |
-| 4. Finish | Every test passes | Last |
-| Throughout | Regular testing | Usability rounds with fixed questions and pass criteria moved the design from v0.2 to v0.4; testing is nearly finished. |
+| 1. Discover | Find the problem → research | Done: the problem from my own headset, device research, the audio-capture approach and the tech stack. |
+| 2. Define | Ideate → app concept → logic → functions | App concept done (app structure v0.4, 23 recorded decisions). Logic and functions nearly done. |
+| 3. Design | Research → ideate → lo-fi → usability test → hi-fi | Lo-fi wireframes done. Usability testing nearly finished. Hi-fi next. |
+| 4. Build | Functionality | Next |
+| 5. Release | Acceptance test on both headphones, then daily use | Last |
+| Throughout | Regular testing | Usability rounds with fixed questions and pass criteria moved the design from v0.2 to v0.4. |
 
 ![ORBIT menu-bar panel, drawn from the lo-fi wireframes](images/orbit-panel-lofi.svg)
 
