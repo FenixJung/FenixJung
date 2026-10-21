@@ -29,7 +29,7 @@ The first product of my audio plugin startup: a three-stage distortion VST plugi
 [Case study →](case-studies/complete-elixir-store.md)
 
 ### ORBIT · macOS audio app
-A macOS menu-bar app that applies one EQ and virtual 7.1 spatial sound to every app, on any headphones.
+macOS has no built-in system-wide EQ. ORBIT adds one for every app, such as Spotify or Apple Music, in stereo or Dolby Atmos, and plays Apple Music's Atmos channels through Atmos earphones or headsets automatically.
 - Built step by step in a Jira project: plan the app (problem → ideate → research → app concept → logic → functions), then design (ideate → research → lo-fi → hi-fi), then functionality, with testing throughout.
 - Now: app concept done, logic and functions nearly done, lo-fi wireframes done; usability testing (fixed questions and pass criteria, v0.2 → v0.4) nearly finished.
 - Planned stack: Swift 6 + SwiftUI, a C++20 real-time audio core, and Core Audio process taps.

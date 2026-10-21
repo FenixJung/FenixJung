@@ -29,7 +29,7 @@ Douglas College 경영학(Business Administration) 재학 중이고 (Vancouver, 
 [Case study →](case-studies/complete-elixir-store.ko.md)
 
 ### ORBIT · macOS 오디오 앱
-모든 앱에 하나의 EQ와 가상 7.1 공간 음향을 적용하는 macOS 메뉴 막대 앱. 어떤 헤드폰에서도 작동합니다.
+macOS에는 시스템 전체 기본 EQ가 없습니다. ORBIT는 Spotify, Apple Music 같은 모든 앱에 스테레오든 Dolby Atmos든 EQ를 적용하고, Atmos 이어폰이나 헤드셋이 있으면 Apple Music의 Atmos 채널을 자동으로 들려줍니다.
 - Jira 프로젝트로 한 단계씩 만듭니다: 앱 기획(문제 → 아이디에이션 → 리서치 → 앱 구상 → 로직 → 기능), 디자인(아이디에이션 → 리서치 → lo-fi → hi-fi), 기능 구현. 테스트는 전 과정에서 계속합니다.
 - 지금: 앱 구상 완료, 로직과 기능 거의 완료, lo-fi 와이어프레임 완료, usability test(정해진 질문과 통과 기준, v0.2 → v0.4) 거의 완료.
 - 예정 스택: Swift 6 + SwiftUI, C++20 실시간 오디오 코어, Core Audio process taps.
