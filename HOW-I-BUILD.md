@@ -8,17 +8,17 @@ This page shows the process, not the products. The source code stays private.
 
 ## My process for every app and website
 
-Every project I build follows the same step flow, and every project is managed in Jira, one step at a time, in order.
+I run every project in Jira with a stage-gated lifecycle. Each stage has defined deliverables and exit criteria, and the next stage starts only when they are met. The roadmap, backlog and milestones live in Jira.
 
 ![How I build every app and website](case-studies/images/process.svg)
 
-1. **Discover:** find the problem → research it (users, competitors, technology).
-2. **Define:** ideate → work out how the whole app works (the app concept) → build the logic (user flows and rules) → build the functions framework (features and architecture).
-3. **Design:** once the definition is done: research → ideate → lo-fi → usability test → hi-fi.
-4. **Build:** the functionality, one step at a time.
-5. **Release:** only when the acceptance tests pass, then keep improving from feedback.
+1. **Discovery:** problem definition → research (users, competitors, technology).
+2. **Definition:** ideation → product concept (how the whole app works) → user flows and business logic → functional requirements and architecture.
+3. **Design:** starts once the definition is signed off: UX research → ideation → lo-fi wireframes → usability testing → hi-fi.
+4. **Build:** incremental delivery, one testable step at a time.
+5. **Release:** go-live only when acceptance testing passes, then iteration from feedback.
 
-**Testing runs regularly through every step,** not just at the end.
+**QA runs continuously through every stage,** not just at the end.
 
 ## How I work inside each step
 

@@ -2,7 +2,7 @@
 
 **English** · [한국어](README.ko.md)
 
-I build products by directing AI. Every app and website I make follows the same step flow, managed in Jira: discover (find the problem → research), define (ideate → app concept → logic → functions), design (research → ideate → lo-fi → usability test → hi-fi), build, and release only when the acceptance tests pass, with testing throughout.
+I build products by directing AI. I run every app and website as a Jira project with a stage-gated lifecycle: **Discovery** (problem definition, research) → **Definition** (ideation, product concept, user flows and business logic, functional requirements) → **Design** (UX research, ideation, lo-fi wireframes, usability testing, hi-fi) → **Build** (incremental delivery) → **Release** (acceptance testing, launch, iteration). Every stage has deliverables and exit criteria, QA runs continuously, and the roadmap and backlog live in Jira.
 
 Business Administration student at Douglas College (Vancouver, BC). Each project below is shown through project management, UX design, marketing and IT / software.
 
@@ -40,4 +40,4 @@ macOS has no built-in system-wide EQ. ORBIT adds one for every app, such as Spot
 - **Audio engineering:** sound design, mixing and mastering; audio QA.
 - **UX design:** user research, usability testing, wireframes and prototypes.
 - **Project management:** requirements, Agile, Jira, cross-functional coordination.
-- **Building with AI:** I plan the product, write the concept and spec, and direct the design (lo-fi to hi-fi, visuals, product videos, photos and captions). Claude Code and Claude build it, and I test and document every step.
+- **Building with AI:** I plan the product, make the decisions, write the concept and spec, and direct the design (lo-fi to hi-fi, visuals, product videos, photos and captions). Claude Code and Claude build it, and I test and document every step. On ORBIT, for example, 23 design decisions are recorded in the app structure.

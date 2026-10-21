@@ -8,17 +8,17 @@
 
 ## 모든 앱과 웹사이트를 만드는 과정
 
-제가 만드는 모든 프로젝트는 같은 순서를 따르고, 모든 프로젝트를 Jira로 관리하며 한 단계씩 순서대로 진행합니다.
+모든 프로젝트를 Jira에서 stage-gate 방식의 lifecycle로 운영합니다. 단계마다 deliverable과 exit criteria를 정해 두고, 그 기준을 충족해야 다음 단계를 시작합니다. Roadmap, backlog, milestone은 Jira에서 관리합니다.
 
 ![모든 앱과 웹사이트를 만드는 과정](case-studies/images/process.svg)
 
-1. **Discover (발견):** 문제 찾기 → 리서치(사용자, 경쟁 제품, 기술).
-2. **Define (정의):** 아이디에이션 → 앱 전체가 어떻게 작동할지 구상(앱 콘셉트) → 로직 만들기(사용자 흐름과 규칙) → 기능 프레임워크 구축(기능과 구조).
-3. **Design (디자인):** 정의가 끝나면 시작합니다. 리서치 → 아이디에이션 → lo-fi → usability test → hi-fi.
-4. **Build (개발):** 기능을 한 단계씩 구현.
-5. **Release (출시):** 인수 테스트를 통과해야 출시하고, 출시 후에도 피드백으로 계속 개선합니다.
+1. **Discovery:** 문제 정의 → 리서치(사용자, 경쟁 제품, 기술).
+2. **Definition:** 아이디에이션 → product concept(앱 전체가 어떻게 작동하는지) → user flow와 business logic → functional requirements와 구조.
+3. **Design:** Definition이 확정되면 시작합니다. UX research → 아이디에이션 → lo-fi wireframe → usability testing → hi-fi.
+4. **Build:** 테스트할 수 있는 단계로 나눠 incremental delivery.
+5. **Release:** acceptance testing을 통과해야 출시(go-live)하고, 출시 후에는 피드백으로 iteration.
 
-**테스트는 마지막에만 하지 않고, 모든 단계에서 정기적으로 합니다.**
+**QA는 마지막에만 하지 않고, 모든 단계에서 계속합니다.**
 
 ## 각 단계 안에서 일하는 방식
 

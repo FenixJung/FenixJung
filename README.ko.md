@@ -2,7 +2,7 @@
 
 [English](README.md) · **한국어**
 
-저는 AI에게 지시해서 제품을 만듭니다. 제가 만드는 모든 앱과 웹사이트는 같은 순서를 따르고 Jira로 관리합니다. 발견(문제 찾기 → 리서치), 정의(아이디에이션 → 앱 구상 → 로직 → 기능), 디자인(리서치 → 아이디에이션 → lo-fi → usability test → hi-fi), 개발, 그리고 인수 테스트를 통과해야 출시. 테스트는 전 과정에서 계속합니다.
+저는 AI에게 지시해서 제품을 만듭니다. 모든 앱과 웹사이트를 Jira 프로젝트로 운영하고, stage-gate 방식의 lifecycle을 따릅니다: **Discovery**(문제 정의, 리서치) → **Definition**(아이디에이션, product concept, user flow와 business logic, functional requirements) → **Design**(UX research, 아이디에이션, lo-fi wireframe, usability testing, hi-fi) → **Build**(incremental delivery) → **Release**(acceptance testing, 출시, iteration). 단계마다 deliverable과 exit criteria가 있고, QA는 계속 진행하며, roadmap과 backlog는 Jira에서 관리합니다.
 
 Douglas College 경영학(Business Administration) 재학 중입니다 (Vancouver, BC). 아래 프로젝트는 프로젝트 관리, UX 디자인, 마케팅, IT / 소프트웨어 관점으로 보여줍니다.
 
@@ -40,4 +40,4 @@ macOS에는 시스템 전체 기본 EQ가 없습니다. ORBIT는 Spotify, Apple 
 - **오디오 엔지니어링:** 사운드 디자인, 믹싱, 마스터링, 오디오 QA.
 - **UX 디자인:** 사용자 리서치, usability test, 와이어프레임과 프로토타입.
 - **프로젝트 관리:** 요구사항 정리, Agile, Jira, 여러 팀 간 조율.
-- **AI로 만들기:** 제품을 기획하고, 콘셉트와 spec을 쓰고, 디자인을 디렉팅합니다(lo-fi부터 hi-fi, 비주얼, 제품 영상, 사진, 캡션). 만드는 건 Claude Code와 Claude가 하고, 저는 모든 단계를 테스트하고 문서로 남깁니다.
+- **AI로 만들기:** 제품을 기획하고, 결정을 내리고, 콘셉트와 spec을 쓰고, 디자인을 디렉팅합니다(lo-fi부터 hi-fi, 비주얼, 제품 영상, 사진, 캡션). 만드는 건 Claude Code와 Claude가 하고, 저는 모든 단계를 테스트하고 문서로 남깁니다. 예를 들어 ORBIT는 앱 구조에 디자인 결정 23개를 기록했습니다.
