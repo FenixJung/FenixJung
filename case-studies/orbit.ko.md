@@ -39,6 +39,15 @@ ORBIT용 Jira 프로젝트를 만들고, 표준 소프트웨어 개발 과정을
 
 ![lo-fi 와이어프레임을 바탕으로 그린 ORBIT 메뉴 막대 패널](images/orbit-panel-lofi.svg)
 
+## 네 가지 관점
+
+| 관점 | 보여주는 것 |
+|---|---|
+| **프로젝트 관리** | Jira 프로젝트로 한 단계씩 순서대로 진행. 앱 구조에 디자인 결정 23개를 기록. 개발 전에 종료 조건이 있는 평가 계획을 세움(예: Beta 종료 전 블라인드 A/B 청취 테스트). |
+| **UX 디자인** | 정해진 질문과 통과 기준으로 진행한 usability test로 디자인을 v0.2에서 v0.4로 바꿈. 메뉴 막대 패널 lo-fi 와이어프레임. 볼륨은 항상 Mac 볼륨이 기준이고, ORBIT는 소스보다 크게 키우지 않습니다. |
+| **마케팅** | 분명한 포지셔닝: macOS에 없는 EQ를 모든 앱과 모든 헤드폰에, Atmos는 자동으로. |
+| **IT / 소프트웨어** | 설계된 구조: Swift 6 + SwiftUI, Core Audio process taps 위의 C++20 실시간 오디오 코어. 오디오는 lock-free ring buffer로 이동하고, 오디오 스레드가 lock을 걸거나 메모리를 할당하면 빌드가 실패하도록 설정합니다. 설정 변경은 20–50 ms에 걸쳐 바뀌어 클릭 소리가 나지 않습니다. EQ는 double precision RBJ biquad 필터, limiter로 출력은 0 dBFS 이하. ORBIT가 멈추면 macOS가 원래 소리를 스스로 다시 켭니다. |
+
 ### 적어 둔 미해결 문제
 
 Atmos 자동 전환은 Apple Music이 무엇을 보내는지 알아야 하는데, 이를 알려주는 공개 API가 없습니다. 후보 신호는 Music 앱의 출력 채널 수와 포맷, 시스템 렌더러 경로, 재생 중 정보(now-playing metadata)입니다. 어느 것도 안 되면 앱별 규칙으로 대신합니다.

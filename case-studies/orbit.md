@@ -39,6 +39,15 @@ I created a Jira project for ORBIT and follow a standard software development pr
 
 ![ORBIT menu-bar panel, drawn from the lo-fi wireframes](images/orbit-panel-lofi.svg)
 
+## Through four lenses
+
+| Lens | What it shows |
+|---|---|
+| **Project management** | A Jira project run step by step, in order. 23 design decisions recorded in the app structure. An evaluation plan with exit criteria set before the build, such as a blind A/B listening test before Beta ends. |
+| **UX design** | Usability rounds with fixed questions and pass criteria moved the design from v0.2 to v0.4. Lo-fi wireframes of the menu-bar panel. The Mac volume stays the master, and ORBIT never plays louder than the source. |
+| **Marketing** | Clear positioning: the EQ macOS doesn't have, for every app and any headphones, with Atmos handled automatically. |
+| **IT / software** | Planned architecture: Swift 6 + SwiftUI with a C++20 real-time audio core on Core Audio process taps. Audio moves through a lock-free ring buffer, and the build is set to fail if the audio thread locks or allocates memory. Settings glide over 20–50 ms so changes never click. EQ uses RBJ biquad filters in double precision, and a limiter keeps the output at or below 0 dBFS. If ORBIT crashes, macOS un-mutes the original audio on its own. |
+
 ### An open problem, written down
 
 The automatic Atmos switch depends on knowing what Apple Music is sending, and there is no public API for it. Candidate signals: the Music app's output channel count and format, the system renderer path, and now-playing metadata. If none of them works, the fallback is a per-app rule.
