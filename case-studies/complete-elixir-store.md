@@ -21,6 +21,17 @@ Like every project, the store followed my step flow ([see How I Build](../HOW-I-
 | **Testing,** throughout | Every function tested before launch. Then contrast scans (axe-core, WCAG 2.1 AA), an automatic tapped-button check on 39 pages, link checks, and layout checks at 1440px, 390px and 375px. |
 | **Release,** then improve | Live at [completeelixir.com](https://completeelixir.com), then improved in five rounds on the live store. Round 5's four new checks on 50 desktop and 12 mobile pages all ended at 0. |
 
+## Next round: the planned backlog
+
+Each round ends with a written list of what comes next. The current one:
+
+- Rebuild the mobile header, which still comes from the old theme and takes 235px of the first screen.
+- Check tablet widths (768–989px) and large phones (430px).
+- On product pages, put the price above Add to cart and keep the cart step before checkout.
+- Fix the top menu's list structure for accessibility (WCAG).
+- Keep the store-quality badge from covering the second button on the mobile first screen.
+- Move to the newer theme version (9.1 → 11.0), carrying the custom code over by hand.
+
 ## Through four lenses
 
 | Lens | What it shows |

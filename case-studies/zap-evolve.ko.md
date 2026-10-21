@@ -21,6 +21,10 @@
 | **테스트,** 전 과정 | DAW 없이 소리 변화를 듣는 ZapRender, UI를 이미지로 검토하는 ZapSnapshot, 빌드마다 macOS와 Windows에서 pluginval(strictness 10), AU 버전은 auval. |
 | **출시** | 아직입니다. plugin은 작동하고 소리가 나지만, 최종 사운드 디자인과 튜닝이 진행 중입니다. |
 
+## 다음 계획
+
+최종 사운드 디자인과 튜닝. 모든 소리 변경의 최우선 기준인 founder brief와 대조하면서 진행합니다.
+
 ## 네 가지 관점
 
 | 관점 | 보여주는 것 |

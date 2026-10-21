@@ -21,6 +21,10 @@ Like every project, ZAP + EVOLVE followed my step flow ([see How I Build](../HOW
 | **Testing,** throughout | ZapRender to hear any change without a DAW, ZapSnapshot to review the UI as an image, pluginval at strictness 10 on macOS and Windows on every build, and auval for the AU version. |
 | **Release** | Not yet. The plugin works and produces sound; final sound design and tuning are still in progress. |
 
+## What's next
+
+Final sound design and tuning, checked against the founder brief, the top-priority reference for every sound change.
+
 ## Through four lenses
 
 | Lens | What it shows |

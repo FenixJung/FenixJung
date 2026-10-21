@@ -40,6 +40,21 @@ Like every project, ORBIT follows my step flow ([see How I Build](../HOW-I-BUILD
 
 ![ORBIT menu-bar panel, drawn from the lo-fi wireframes](images/orbit-panel-lofi.svg)
 
+## Roadmap: planned ahead
+
+Each stage is planned before it starts, with the criteria it must meet before the next one begins.
+
+![ORBIT roadmap with exit criteria](images/orbit-roadmap.svg)
+
+| Next | What it delivers | Exit criteria |
+|---|---|---|
+| Finish design | Hi-fi design, a design system, an audio-engine spike | End-to-end latency measured on both headphones before the engine design is locked |
+| Alpha | EQ engine and menu-bar UI | Every core flow works end to end |
+| Beta | Xbox spatial modes, reliability | A blind, level-matched A/B listening test passes |
+| Release 1.0 | Daily use | An acceptance test against written criteria on both headphones |
+
+**Known risk, planned for:** no public API tells ORBIT when Apple Music is sending Atmos. The candidate signals are listed below, with a per-app rule as the fallback.
+
 ## Through four lenses
 
 | Lens | What it shows |
