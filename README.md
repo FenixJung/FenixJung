@@ -40,4 +40,4 @@ macOS has no built-in system-wide EQ. ORBIT adds one for every app, such as Spot
 - **Audio engineering:** sound design, mixing and mastering; audio QA.
 - **UX design:** user research, usability testing, wireframes and prototypes.
 - **Project management:** requirements, Agile, Jira, cross-functional coordination.
-- **Building with AI:** directing Claude Code and Claude to build, test and document products.
+- **Building with AI:** I plan the product, write the concept and spec, and direct the design (lo-fi to hi-fi, visuals, product videos, photos and captions). Claude Code and Claude build it, and I test and document every step.

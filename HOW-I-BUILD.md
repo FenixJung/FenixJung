@@ -25,6 +25,7 @@ Every project I build follows the same step flow, and every project is managed i
 - **Small, testable steps.** Every step has a clear check: a sound to render, a screen to measure, a test to pass.
 - **The AI builds one step at a time,** and I check each result.
 - **Automated checks wherever possible:** plugin validation on every build, accessibility scans across every page. My own review covers the rest.
+- **Plan ahead.** Each project keeps a roadmap or a backlog of what comes next, with the criteria a stage must meet before the next one starts.
 - **Every mistake becomes a rule.** Each issue gets a note: what was wrong, why it was missed, and what to do next time. The notes become a checklist for the next round.
 
 ## Case studies
